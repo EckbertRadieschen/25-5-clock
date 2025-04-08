@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  cursor: default;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  background-color: #EE8844;
+  vertical-align: top;
+}
+
+button {
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#setup-div {
+  width: 440px;
+  height: 100px;
+  margin: 50px auto 0 auto;
+  display: flex; 
+}
+
+#session-setup, #break-setup {
+  width: 200px;
+  height: 100%;
+  text-align: center;
+}
+
+#session-setup {
+  margin-left: 50px;
+}
+
+#session-buttons, #break-buttons {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#session-length, #break-length {
+  width: 30px;
+  margin: 1px 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+#clock-div {
+  width: 500px;
+  height: 300px;
+  margin: 20px auto 0 auto;
+  border: 4px solid black;
+  border-radius: 25px;
+}
+
+#timer-label {
+  width: 200px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#time-left {
+  width: 400px;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  font-size: 75px;
+  font-weight: bold;
+}
+
+#buttons-div {
+  width: 400px;
+  height: 50px;
+  margin: 30px auto 0 auto;
+}
+
+.play-pause-div {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 60px;  
+  margin-bottom: 20px;
+}
+
+.reset-div {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 60px;
+}
+
+.play-pause-label {
+  width: 250px;
+  margin-right: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.reset-label {
+  width: 250px;
+  margin-right: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.resetImg {
+  width: 33px;
+  height: 33px;
+  
+}
+
